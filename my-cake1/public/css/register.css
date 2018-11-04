@@ -1,0 +1,22 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+div.main{
+    width: 1140px;
+    height: 596px;
+    margin: 0 90px;
+    padding: 112px 15px;
+}
+div.main .register p input{
+    width: 503px;
+    height: 18px;
+    padding: 7px;
+}
+div.main .register button{
+    width: 120px;
+    height: 34px;
+    padding: 11px 38px;
+    border: 0;
+    background: #FF6392 ;
+}

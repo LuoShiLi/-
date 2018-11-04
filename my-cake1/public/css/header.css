@@ -1,0 +1,54 @@
+#header{
+    position: relative;
+}
+/****************************头部导航**************************/
+.header_nav{
+    width: 1730px;
+    display: flex;
+    background-color: #5A0F16;
+    padding: 10px;
+
+}
+div.nav_left a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+div.nav_left{
+    margin-left: 345px;
+}
+div.nav_center{
+    margin-left: 185px;
+    margin-right: 185px;
+}
+div.nav_center span{
+    color: #FFFFFF;
+}
+/****************************菜单*********************************/
+div.main-menu{
+    width: 1750px;
+    height: 80px;
+    margin-top: 90px;
+    background: url("../img/header/nav-bg.png");
+}
+div.main-menu ul{
+    margin-left: 334px;
+}
+div.main-menu ul li:nth-child(2){
+    margin-right: 260px;
+}
+div.main-menu ul li{
+    list-style: none;
+    float: left;
+    padding: 29px 41px;
+}
+div.main-menu ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/****************************logo*************************/
+div.logo{
+    position: absolute;
+    left: 653px;
+    top: 77px;
+    Z-index:10
+}
